@@ -194,13 +194,13 @@ public class MainActivity extends AppCompatActivity {
                  * return
                  */
 
-              /*  ChatModel chatModel1 = new ChatModel();
+                ChatModel chatModel1 = new ChatModel();
                 chatModel1.setId(Constants.RECEIVER);
                 chatModel1.setTime(currentTime);
                 chatModel1.setMessage(finalFile.getAbsolutePath());
                 chatModel1.setMessageType("img");
                 chatModel1.setBitmap(photo);
-                data.add(chatModel1);*/
+                data.add(chatModel1);
             } else {
                 Toast.makeText(this,
                         "Ooops ..! something happen", Toast.LENGTH_LONG).show();
